@@ -1,0 +1,92 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 150;
+    border: 0px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+    margin: 0 auto;
+    
+
+    tr{
+        
+        padding: 0px;
+    }
+}
+
+.SecaoEscolha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-collapse: collapse; 
+    width: 50%; 
+    gap: 20px;
+    font-size:x-small;
+
+    td {
+        padding: 10px;
+    }
+}
+
+body{
+    padding-top: 120px; ;
+    color: #ffffff;
+    background-color: #1b2a3f;
+    scroll-padding-top: 100px
+}
+
+.Secoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: self-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: rgb(105, 105, 105);
+
+    table{
+        border: 2px solid black;
+    }
+}
+.anchor-offset {
+        display: block;
+        position: relative;
+        top: -120px; /* Compensar a altura do cabeçalho */
+        visibility: hidden;
+}
+
+    table{
+        padding: 10px;
+        border-collapse: collapse;
+        margin: 10px;
+}
+
+a {
+    color: rgb(255, 255, 255); /* Define a cor inicial do link */
+    text-decoration: none;
+}
+
+td a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

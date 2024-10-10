@@ -1,0 +1,101 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 150;
+    border: 0px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+    margin: 0 auto;
+    
+
+    tr{
+        
+        padding: 0px;
+    }
+}
+
+
+
+body{
+    padding-top: 150px; ;
+    color: #ffffff;
+    background-color: #1b2a3f;
+    scroll-padding-top: 100px
+
+}
+
+.Secoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+    table{
+        border-collapse: collapse;
+        margin: 10px;
+        text-align: center;
+        padding: -1px;
+        border: 5px solid black;
+    }
+    td{
+        background-color: #3a5375;   
+    }
+    td a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-align: center;
+    }   
+            
+}
+
+.principal{
+    td{
+        width: 275px;
+    }
+}
+
+.tabela{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.receita{
+    display: flex;
+    justify-content: center;
+
+    td{
+        width: 70px;
+    }
+}
+
+a {
+    color: rgb(255, 255, 255); /* Define a cor inicial do link */
+    text-decoration: none;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
